@@ -44,7 +44,7 @@ export function RegisterForm() {
   return (
     <div className="flex w-full h-full flex-col items-center overflow-hidden">
       <div className="flex flex-col items-center justify-center w-lg gap-10 p-10 pt-52">
-        <h1 className="text-slate-800 text-2xl font-bold ">Login</h1>
+        <h1 className="text-slate-800 text-2xl font-bold ">Register</h1>
         <Form {...form}>
           <form
             onSubmit={form.handleSubmit(onSubmit)}
