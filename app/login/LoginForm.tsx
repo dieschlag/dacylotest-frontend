@@ -61,7 +61,7 @@ export function LoginForm() {
 
             <FormField
               control={form.control}
-              name="username"
+              name="password"
               render={() => (
                 <FormItem>
                   <FormLabel className="text-slate-600 font-bold text-lg">

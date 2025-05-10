@@ -115,4 +115,8 @@
   .loginInput {
     @apply border border-neutral-400 px-5 h-12 focus-visible:ring-0 placeholder:text-neutral-400 rounded-sm;
   }
+
+  .registerInput {
+    @apply;
+  }
 }
