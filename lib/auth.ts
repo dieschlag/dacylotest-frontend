@@ -1,6 +1,6 @@
 "use client";
 
-import { LoginResponse, RegisterResponse } from "@/app/types/auth";
+import { LoginResponse, RegisterResponse } from "@/types/auth";
 import { api } from "./api";
 import { isAxiosError } from "axios";
 
