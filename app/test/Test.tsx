@@ -34,7 +34,7 @@ export function TestClient() {
             {!errorMessage && randomQuote ? (
               <p>{randomQuote.paragraph}</p>
             ) : (
-              <p>Chargement du texte...</p>
+              <p>Loading...</p>
             )}
           </div>
         ) : (
