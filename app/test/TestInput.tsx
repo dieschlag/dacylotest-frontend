@@ -83,7 +83,7 @@ export function TestInput({ quote, setIsTestFinished }: TestInputProps) {
       </div>
       <div className="flex flex-row">
         <span>Time spent: </span>
-        <span>{elapsed}</span>
+        <span>{elapsed / 1000}</span>
       </div>
     </div>
   );
